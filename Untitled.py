@@ -20,7 +20,7 @@ geolocator = Nominatim(user_agent="carbon_footprint_calculator")
 
 # Streamlit UI setup
 st.title("Carbon Emission Calculator 🌍")
-st.markdown("### Calculate the carbon footprint of your travel")
+st.markdown("### Calculate the carbon footprint of your travel to JHU DC")
 
 # User input for starting location
 origin = st.text_input("Enter your starting address:")
